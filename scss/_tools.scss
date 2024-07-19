@@ -1,0 +1,141 @@
+// tools
+// background
+.bg-dark{
+  background-color: $dark;
+}
+
+.bg-light{
+  background-color: $light;
+}
+
+//font
+.fs-h1-heading{
+  font-size: $fs-h1-heading;
+  line-height: 192px;
+}
+
+.fs-h2-heading{
+  font-size: $fs-h2-heading;
+  line-height: 60px;
+}
+
+.fs-1{
+  font-size: $fs-1;
+  line-height: 48px;
+}
+
+.fs-2{
+  font-size: $fs-2;
+  line-height: 36px;
+}
+
+.fs-3{
+  font-size: $fs-3;
+  line-height: 30px;
+}
+
+.fs-64px{
+  font-size: $fs-64px;
+  line-height: 96px;
+}
+
+// color
+.text-light{
+  color: $light;
+}
+
+.text-dark{
+  color: $dark;
+}
+
+.text-primary{
+  color: $primary;
+}
+
+// img
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+// text
+.text-decoration-none{
+  text-decoration: none
+}
+
+// display & flex
+.d-block{
+  display: block;
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.align-self-end{
+  align-self: flex-end;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.flex-direction-column{
+  flex-direction: column;
+}
+
+.just-content-between{
+  justify-content: space-between;
+}
+
+// btn
+.btn{
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 32px;
+} 
+
+.btn-light{
+  background-color: $light;
+  color: $dark;
+  &:hover{
+    background-color: gray;
+  }
+}
+
+.btn-dark{
+  background-color: $dark;
+  color: $light;
+  &:hover{
+    background-color: gray;
+  }
+}
+
+// space
+.me-16px{
+  margin-right: 16px;
+}
+
+.me-20px{
+  margin-right: 20px;
+}
+
+.me-24px{
+  margin-right: 24px;
+}
+
+.mb-24px{
+  margin-bottom: 24px;
+}
+
+.mb-36px{
+  margin-bottom: 36px;
+}

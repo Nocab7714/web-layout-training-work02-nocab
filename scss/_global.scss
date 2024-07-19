@@ -1,0 +1,18 @@
+// global setting
+// google font 引入
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*,*::after,::before{
+  box-sizing: border-box;
+}
+
+// 消除圖片下方空白區塊
+img{
+  vertical-align: middle;
+}
+
+// 字體設定
+body{
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 24px;
+}
