@@ -64,7 +64,11 @@ img {
 
 body {
   font-family: "Bruno Ace SC", sans-serif;
-  line-height: 24px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
 }
 
 .bg-dark {
@@ -223,10 +227,13 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 52px 0;
+  color: white;
 }
 .navbar li a {
-  text-decoration: none;
   color: white;
 }
 .navbar li a:hover {
@@ -274,6 +281,8 @@ body {
   border: 1px solid #E3E3E3;
   padding: 16px;
   width: 306px;
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.0784313725);
+          box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.0784313725);
 }
 
 .about-me-body {
@@ -303,7 +312,8 @@ body {
   padding: 160px 0;
 }
 .my-projects h2 {
-  margin-left: 550px;
+  width: 746px;
+  margin-left: auto;
   margin-bottom: 16px;
 }
 

@@ -7,10 +7,11 @@
 .navbar{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 52px 0;
+  color: $light;
 
   li a{
-    text-decoration: none;
     color: $light;
 
     &:hover{
@@ -60,6 +61,8 @@
   border: 1px solid #E3E3E3;
   padding: 16px;
   width: 306px;
+  box-shadow: 4px 4px 4px 0px #00000014;
+
 }
 
 .about-me-body{
@@ -90,7 +93,8 @@
   padding: 160px 0;
 
   h2{
-    margin-left: 550px;
+    width: 746px;
+    margin-left: auto;
     margin-bottom: 16px;
   }
 }
